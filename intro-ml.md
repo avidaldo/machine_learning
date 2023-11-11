@@ -2,15 +2,17 @@
 
 ## Definición
 
-El *machine learning*, o aprendizaje automático es un subcampo de la inteligencia artificial. Hay que partir de que ambos términos tienen distintas definiciones y sus fronteras pueden ser difusas.
+El *machine learning*, o aprendizaje automático es un subcampo de la inteligencia artificial.
 
-El término pone el énfasis en el **aprendizaje** y podríamos establecer la diferencia en que el el *machine learning* se utiliza para resolver problemas para los cuales los humanos desarrollar algoritmos por nosotros mismos (o su coste es prohibitivo), por contra, los problemas se resuelven ayudando a las máquinas a descubrir sus propios algoritmos, sin necesidad de que se les diga explícitamente qué hacer por algoritmos desarrollados por humanos.
+<img src="img/AI_hierarchy.svg.png" width="200">
 
-![Machine Learning](img/reglas_vs_ml.jpg)
+El término pone el énfasis en el **aprendizaje** y podríamos establecer la diferencia en que el el ***machine learning*** se utiliza para resolver problemas para los cuales los humanos no somos capaces de desarrollar algoritmos por nosotros mismos. En lugar de simplemente programar un algoritmo que resuelve el problema, este resuelven ayudando a las máquinas a descubrir sus propios algoritmos, sin necesidad de que se les diga explícitamente.
 
-El *machine learning* se puede entender como aprendizaje basado en ejemplos. El algoritmo de aprendizaje examina muchos ejemplos y aprende qué características de los datos parecen ser útiles para predecir la respuesta. Una vez que se entrena el algoritmo, se puede utilizar para predecir la respuesta correcta cuando se le da un nuevo conjunto de datos y además se pueden utilizar los nuevos datos (una vez etiquetados) para mejorar el modelo.
+En IA tradicional, el algoritmo se programa porque se conoce un modelo que describe el problema. En *machine learning*, el algoritmo se entrena con un conjunto de datos de entrada y salida, y el modelo se genera a partir de los datos de entrenamiento, de modo que este modelo se puede utilizar para predecir la salida cuando se le da un nuevo conjunto de datos de entrada.
 
-En los años 90 aparece la primera aplicación realmente popular de *machine learning*: el filtro de spam. En los últimos años, el *machine learning* ha dado lugar a una revolución en la visión por computador, el reconocimiento de voz, la comprensión del lenguaje natural, la conducción autónoma y muchos otros campos.
+<img src="img/reglas_vs_ml.jpg" width="500">
+
+En los años 90 aparece la primera aplicación realmente popular de *machine learning*: el filtro de spam. En los últimos años, ha dado lugar a una revolución en la visión por computador, el reconocimiento de voz, la comprensión del lenguaje natural, la conducción autónoma y muchos otros campos.
 
 Un par de definiciones clásicas son las siguientes:
 
@@ -24,23 +26,27 @@ Un par de definiciones clásicas son las siguientes:
 
 <!-- TODO: Dependencia e interacción con Big Data -->
 
+## Modelos
+
+[Modelos para entender una realidad caótica | DotCSV](https://www.youtube.com/watch?v=Sb8XVheowVQ)
+
+Los modelos son los que entrenemos basándonos en uno u otro algoritmo de aprendizaje. Son los que se utilizan para predecir la respuesta correcta cuando se le da un nuevo conjunto de datos de entrada con los que pretenderemos predecir la salida.
+
 ## Paradigmas de aprendizaje / Clasificación según la supervisión del aprendizaje
 
-- [DotCSV: ¿Qué es el Aprendizaje Supervisado y No Supervisado?](https://www.youtube.com/watch?v=oT3arRRB2Cw)
+- [¿Qué es el Aprendizaje Supervisado y No Supervisado? | DotCSV](https://www.youtube.com/watch?v=oT3arRRB2Cw)
 
 - [Sistemas de aprendizaje automático: supervisado, no supervisado](https://openwebinars.net/academia/aprende/fundamentos-inteligencia-artificial/21829/#)
 
-![Paradigmas de aprendizaje](img/tipos-ml-clasico.jpg)
-
 ### Aprendizaje supervisado (*supervised learning*)
 
-Se da cuando el conjunto de datos de entrenamiento está etiquetado con la respuesta correcta. Es decir, se conoce la respuesta correcta para cada uno de los datos de entrenamiento. El algoritmo de aprendizaje recibe un conjunto de datos de entrenamiento y genera una función que se aplica a los datos de entrada para predecir la salida.
+Se da cuando el conjunto de datos de entrenamiento está etiquetado con la respuesta correcta. El algoritmo de aprendizaje recibe un conjunto de datos de entrenamiento y, sabiendo la respuesta correcta para cada uno, infiere el modelo que genera esa respuesta para esos datos.
 
-Una tarea típica de aprendizaje supervisado es la **clasificación**. Por ejemplo, si pensamos en el caso del spam, un algoritmo puede aprender examinar muchos ejemplos de correos electrónicos que ya han etiquetados como spam y no spam, infiriendo, por ejemplo que ciertas palabras son casi siempre spam y que los correos electrónicos que provienen determinados email no son nunca spam. De este modo, cuanto más se entrene el algoritmo (cuantos más ejemplos de emails etiquetados se le den), mejor será su capacidad para filtrar el spam.
+Una tarea típica de aprendizaje supervisado es la **clasificación**: si pensamos en el caso del spam, un algoritmo puede aprender examinar muchos ejemplos de correos electrónicos que ya han etiquetados como spam y no spam, infiriendo, por ejemplo que ciertas palabras son casi siempre spam y que los correos electrónicos que provienen determinados email no son nunca spam. De este modo, cuanto más se entrene el algoritmo (cuantos más ejemplos de emails etiquetados se le den), mejor será su capacidad para filtrar el spam.
 
 ### Aprendizaje no supervisado (*unsupervised learning*)
 
-En el aprendizaje no supervisado, el conjunto de datos de entrenamiento no está etiquetado con la respuesta correcta. Su objetivo es descubrir patrones en los datos. Por ejemplo, se puede utilizar para agrupar los datos de entrada en grupos, lo que se conoce como **clustering**. También se puede utilizar para reducir la dimensionalidad de los datos de entrada en un proceso llamado **reducción de dimensionalidad**.
+En el aprendizaje no supervisado, el conjunto de datos de entrenamiento no está etiquetado con la respuesta correcta. Su objetivo es descubrir patrones en los datos. Por ejemplo, se puede utilizar para agrupar los datos de entrada en grupos, lo que se conoce como **clustering**.
 
 Ejemplos de clustering serían agrupar los clientes de una empresa en grupos de clientes similares para adaptar mejor los productos y servicios a cada grupo o los sistemas de recomendación de productos en tiendas online.
 
@@ -50,12 +56,7 @@ En el aprendizaje por refuerzo, el algoritmo de aprendizaje, llamado **agente**,
 
 Ejemplos podrían ser en robótica (enseñando a un robot a caminar) o en juegos (enseñando a un ordenador a jugar al ajedrez).
 
-## Modelos
-
-[Modelos para entender una realidad caótica | DotCSV](https://www.youtube.com/watch?v=Sb8XVheowVQ)
-
-Los modelos son los que entrenemos basándonos en uno u otro algoritmo de aprendizaje. Son los que se utilizan para predecir la respuesta correcta cuando se le da un nuevo conjunto de datos de entrada con los que pretenderemos predecir la salida.
-
+<img src="img/tipos-ml-clasico.jpg" width="400">
 
 ## Fuentes
 

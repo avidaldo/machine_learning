@@ -16,5 +16,4 @@ La inferencia bayesiana desempeña un papel crucial en diversas aplicaciones de 
 
 ## Fuentes
 
-https://www.youtube.com/watch?v=HZGCoVF3YvM
 https://machinelearningmastery.com/what-is-probability/
