@@ -15,7 +15,7 @@ donde:
 
 ## Ejemplo del teorema de Bayes aplicado a un filtro de *spam*
 
-Supongamos que estamos construyendo un filtro de spam y queremos determinar la probabilidad de que un correo electrónico sea spam ($P(S)$) dado que contiene una palabra específica ($X$), por ejemplo, "oferta". Usando el Teorema de Bayes, podemos expresar esto como:
+Supongamos que estamos construyendo un filtro de spam y queremos determinar la probabilidad de que un correo electrónico sea spam, $P(S)$, dado que contiene una palabra específica, $X$, por ejemplo, "oferta". Usando el Teorema de Bayes, podemos expresar esto como:
 
 $$ P(S|X) = \frac{P(X|S) \times P(S)}{P(X)} $$
 
