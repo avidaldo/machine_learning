@@ -30,6 +30,10 @@ Al calcular estas probabilidades y sustituirlas en la fórmula del Teorema de Ba
 
 Esta versión simplificada al mínimo, puede extenderse a múltiples palabras y características para mejorar la precisión del filtro de spam, y puede irse actualizando (y por tanto, afinando) a medida que se reciben nuevos emails.
 
+## Demostración del teorema partiendo de la probabilidad condicionada
+
+asdfsadfsdfsdfa
+
 ## Material complementario
 
 - [3Blue1Brown - Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM)  
