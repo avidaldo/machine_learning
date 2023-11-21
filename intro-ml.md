@@ -30,7 +30,9 @@ Un par de definiciones clásicas son las siguientes:
 
 [Modelos para entender una realidad caótica | DotCSV](https://www.youtube.com/watch?v=Sb8XVheowVQ)
 
-Los modelos son los que entrenemos basándonos en uno u otro algoritmo de aprendizaje. Son los que se utilizan para predecir la respuesta correcta cuando se le da un nuevo conjunto de datos de entrada con los que pretenderemos predecir la salida.
+Un modelo es una descripción articulada y abstracta de una realidad. es una representación de un sistema que se utiliza para comprenderlo y predecir su comportamiento.
+
+En *machine learning*, los modelos son los que entrenemos basándonos en uno u otro algoritmo de aprendizaje. Son los que se utilizan para predecir la respuesta correcta cuando se le da un nuevo conjunto de datos de entrada con los que pretenderemos predecir la salida.
 
 ## Paradigmas de aprendizaje / Clasificación según la supervisión del aprendizaje
 
