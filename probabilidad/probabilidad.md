@@ -14,6 +14,19 @@ La probabilidad bayesiana se basa en el conocimiento previo de un suceso. Por ej
 
 La inferencia bayesiana desempeña un papel crucial en diversas aplicaciones de aprendizaje automático, especialmente en casos donde se necesita cuantificar la incertidumbre o cuando es necesario actualizar continuamente creencias basadas en nueva evidencia. En el ámbito médico, las redes bayesianas ayudan en el diagnóstico de enfermedades al considerar síntomas, historial del paciente y resultados de pruebas, actualizando las probabilidades a medida que se dispone de nueva información. En el procesamiento del lenguaje natural, los métodos bayesianos son fundamentales para la modelación del lenguaje, facilitando tareas como el reconocimiento de voz, la comprensión semántica y la predicción de la siguiente palabra en una oración. En seguridad de redes, se utilizan métodos bayesianos para detectar anomalías en el tráfico de la red mediante la modelación de patrones regulares y la identificación de desviaciones que podrían indicar amenazas cibernéticas. Desde análisis financiero hasta sistemas de recomendación personalizados, la inferencia bayesiana se emplea para mejorar la toma de decisiones continuamente actualizando creencias en diferentes dominios.
 
+## Probabilidad condicionada
+
+La probabilidad condicionada es la probabilidad de que ocurra un evento dado que otro evento ya ha ocurrido. Por ejemplo, la probabilidad de que un paciente tenga cáncer dado que la prueba de detección de cáncer es positiva.
+
+Si tomamos un espacio muestral $\Omega,$ (el conjunto de todos los eventos que tendremos en consideración) y dos eventos $A$ y $B$ en $\Omega$ con $P(B) > 0$.
+
+![](../img/prob_condicionada.png)
+
+Entonces la probabilidad condicionada de $A$ dado $B$ es:
+
+$$ P(A|B) = \frac{P(A \cap B)}{P(B)} $$
+
 ## Fuentes
 
-https://machinelearningmastery.com/what-is-probability/
+- https://machinelearningmastery.com/what-is-probability/
+- https://courses.cs.washington.edu/courses/cse312/18wi/312A/lecture7.pdf

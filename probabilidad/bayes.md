@@ -30,10 +30,24 @@ Al calcular estas probabilidades y sustituirlas en la fórmula del Teorema de Ba
 
 Esta versión simplificada al mínimo, puede extenderse a múltiples palabras y características para mejorar la precisión del filtro de spam, y puede irse actualizando (y por tanto, afinando) a medida que se reciben nuevos emails.
 
+## Demostración del teorema de Bayes
+
+La demostración del Teorema de Bayes se basa en la definición de [**probabilidad condicionada**](https://es.wikipedia.org/wiki/Probabilidad_condicionada). La probabilidad condicionada de un evento A dado que ha ocurrido un evento B se define como:
+
+$$ P(A|B) = \frac{P(A \cap B)}{P(B)} $$
+
+donde:
+
+- $P(A|B)$ es la probabilidad de que ocurra el evento A dado que ha ocurrido el evento B.
+- $P(A \cap B)$ es la probabilidad de que ocurran ambos eventos A y B.
+- $P(B)$ es la probabilidad de que ocurra el evento B.
+
+De esta formula sacamos que $ {P(A \cap B)} = P(A|B) \times P(B) $ y que $ {P(A \cap B)} = P(B|A) \times P(A) $, por lo que, sustituyendo en la fórmula anterior, obtenemos el Teorema de Bayes:
+
+$$ P(A|B) = \frac{P(A \cap B)}{P(B)} \quad\Rightarrow\quad P(A|B) = \frac{P(B|A) \times P(A)}{P(B)} $$
+
 ## Material complementario
 
+- [Matemáticas profe Alex - Teorema de Bayes](https://www.youtube.com/watch?v=bDfCURXoKkU)
 - [3Blue1Brown - Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM)  
-- [Veritasium - The Bayesian Trap](https://www.youtube.com/watch?v=R13BD8qKeTg) ([Versión doblada al español](https://www.youtube.com/watch?v=D7KKlC0LOyw))
-- [3Blue1Brown - The medical test paradox, and redesigning Bayes' rule](https://www.youtube.com/watch?v=lG4VkPoG3ko)
 - https://www.upgrad.com/blog/bayes-theorem-explained-with-example-complete-guide/
-- https://courses.cs.washington.edu/courses/cse312/18wi/312A/lecture7.pdf
