@@ -58,5 +58,6 @@ Evidentemente si la prueba del análisis de sangre hubiese sido negativa, esta i
 
 ## Material complementario
 
+- [Matemáticas con Juan - Ejercicio similar resuelto](https://www.youtube.com/watch?v=n11NDXIIcLI)
 - [Veritasium - The Bayesian Trap](https://www.youtube.com/watch?v=R13BD8qKeTg) ([Versión doblada al español](https://www.youtube.com/watch?v=D7KKlC0LOyw))
 - [3Blue1Brown - The medical test paradox, and redesigning Bayes' rule](https://www.youtube.com/watch?v=lG4VkPoG3ko)
