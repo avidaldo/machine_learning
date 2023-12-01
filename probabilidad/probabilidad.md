@@ -26,6 +26,8 @@ Entonces la probabilidad condicionada de $A$ dado $B$ es:
 
 $$ P(A|B) = \frac{P(A \cap B)}{P(B)} $$
 
+<!-- TODO: Teorema de la probabilidad total>
+
 ## Fuentes
 
 - https://machinelearningmastery.com/what-is-probability/
