@@ -27,14 +27,6 @@ $$ P(\neg Diabético) = 1 - P(Diabético) = 1 - 0,03= 0,97 $$
 
 $$ P(Positivo|\neg Diabético) = 1 - P(Negativo|\neg Diabético) = 1 - 0,98= 0,02 $$
 
-Todas estas probabilidades se pueden mostrar en una [tabla de contingencia](https://es.wikipedia.org/wiki/Tabla_de_contingencia):
-
-|  | Positivo | Negativo | Total |
-| --- | --- | --- | --- |
-| Diabético | 0,95 | 0,05 | 0,03 |
-| No diabético | 0,02 | 0,98 | 0,97 |
-| Total | 0,97 | 0,03 | 1 |
-
 <!--TODO: Mostrarlas como árbol de decisión -->
 
 ¿Cuál será ahora la probabilidad de que esa persona sea diabética?
@@ -65,7 +57,8 @@ que viene a ser el [teorema de probabilidad total](https://es.wikipedia.org/wiki
 
 Así que podemos desarrollar la fórmula de Bayes de la siguiente manera:
 
-$$ P(Diabético|Positivo) = \frac{P (Positivo|Diabético)\times P(Diabético)} {P(Positivo|Diabético)\times P(Diabético) + P(Positivo|\neg Diabético) \times P(\neg Diabético)} = \frac{0,95 \times 0,03}{0,95 \times 0,03 + 0.02*0.97} \approx 0.595$$
+$$ P(Diabético|Positivo) = \frac{P (Positivo|Diabético)\times P(Diabético)} {P(Positivo|Diabético)\times P(Diabético) + P(Positivo|\neg Diabético) \times P(\neg Diabético)} 
+\\ \ \\= \frac{0,95 \times 0,03}{0,95 \times 0,03 + 0.02*0.97} \approx 0.595$$
 
 Vemos así que la información proporcionada por el análisis de sangre hace pasar la probabilidad inicial de padecer diabetes de 0,03 a 0,595.
 
