@@ -48,6 +48,7 @@ $$ P(A|B) = \frac{P(A \cap B)}{P(B)} \quad\Rightarrow\quad P(A|B) = \frac{P(B|A)
 
 ## Material complementario
 
+- [Jesús Conde - Ciencia de Datos para aprendizaje automático. Teoría de la Probabilidad y Teorema de Bayes.](https://www.youtube.com/watch?v=foBVe1MuT5s)
 - [Matemáticas profe Alex - Teorema de Bayes](https://www.youtube.com/watch?v=bDfCURXoKkU&list=PLeySRPnY35dH7Pnamtm2xxaCuT6jxt1vn&index=28)
 - [3Blue1Brown - Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM)  
 - https://www.upgrad.com/blog/bayes-theorem-explained-with-example-complete-guide/
