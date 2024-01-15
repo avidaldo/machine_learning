@@ -20,7 +20,7 @@ La probabilidad condicionada es la probabilidad de que ocurra un evento dado que
 
 Si tomamos un espacio muestral $\Omega,$ (el conjunto de todos los eventos que tendremos en consideración) y dos eventos $A$ y $B$ en $\Omega$ con $P(B) > 0$.
 
-![](../img/prob_condicionada.png)
+![](./img/prob_condicionada.png)
 
 Entonces la probabilidad condicionada de $A$ dado $B$ es:
 

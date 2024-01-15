@@ -1,6 +1,6 @@
 # Sistemas de Aprendizaje Automático
 
-- [Introducción a *machine learning*](./intro-ml.md)
+- [Introducción a *machine learning*](./intro/intro-ml.md)
 - Probabilidad
   - [Nociones básicas de probabilidad](./probabilidad/probabilidad.md)
   - [Teorema de Bayes](./probabilidad/bayes.md)
